@@ -1,0 +1,12 @@
+{
+  "name": "oauth-xx",
+  "main": "index.js",
+  "version": "1.0.1",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "nunjucks": "^3.2.2",
+    "tiny-glob": "^0.2.8"
+  }
+}
