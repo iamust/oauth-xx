@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/discord/:any*", "destination": "/api/discord/:any*" },
+    { "source": "/google/:any*", "destination": "/api/google/:any*" },
+    { "source": "/kakao/:any*", "destination": "/api/kakao/:any*" }
+  ]
+}
