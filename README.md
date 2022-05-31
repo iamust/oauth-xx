@@ -2,7 +2,7 @@
 
 A simple OAuth2 service
 
-# Usage
+## Usage
 
 ```zsh
 http https://oauth-xx.vercel.app/api/discord --body
