@@ -4,10 +4,10 @@ const { render } = require('nunjucks')
 const providers = require('./providers')
 
 glob('src/**/*.py').then(paths => {
-  for (let name of Object.keys(providers)) {
+  for (const name of Object.keys(providers)) {
     const NAME = name.toUpperCase()
 
-    for (let path of paths) {
+    for (const path of paths) {
       const file = path.replace(/^src/, `api/${name}`)
 
       fs.outputFileSync(file, render(path, {
